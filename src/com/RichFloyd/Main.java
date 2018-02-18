@@ -10,7 +10,7 @@ public class Main {
         String a = "hi he2llo";
         int ind = 0;
 
-        System.out.println(xyzThere("abc.xyzxyz") );
+        System.out.println(xyzThere("abc.xyzxyza") );
         System.out.println(catDog("catcat"));
         System.out.println(doubleChar("The"));
         System.out.println(ind = a.indexOf(33));
