@@ -1,14 +1,19 @@
 package com.RichFloyd;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
         String a = "hi he2llo";
         int ind = 0;
+        int[] arr = {1,2,3,4,5,6,7};
+        List<Integer> lArray = new ArrayList<>();
+        for (int i: arr) { lArray.add(i); }
+        lArray.set(3,8);
+        for (Integer i : lArray) { System.out.print(i + ","); }
+        String[] sArr = {"a","b","c","d"};
+        List<String> sList = Arrays.asList(sArr);
 
         System.out.println(xyzThere("abc.xyzxyza") );
         System.out.println(catDog("catcat"));
@@ -17,6 +22,7 @@ public class Main {
         System.out.println(ind = a.indexOf("e"));
         System.out.println(ind = a.indexOf("o"));
         System.out.println(startHi(a));
+        System.out.println("hello");
         //String b = (a.charAt(0)=='o') ? "o" : "";
         //System.out.println(a.charAt(0));
         //System.out.println(hasTeen(20, 19, 10));
